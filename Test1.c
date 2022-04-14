@@ -8,13 +8,13 @@ int main() {
     i = 0;
     sum = 0;
     sum = addup(i);
-    printf("i was squared - it now equals %d\n", sum);
+    // printf("i was squared - it now equals %d\n", sum);
 }
 
 int addup(int i) {
     while (i <= 5) {
         i = i + 1;
-        printf("i is %d\n", i); // 上の計算結果を出力
+        printf("i is %d\n", i * i); // 上の計算結果を出力
     }
     i = i * i;
     return (i);
