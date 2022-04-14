@@ -1,11 +1,13 @@
-#include <stdio.h>
 #include <math.h>
+#include <stdio.h>
 
 int main() {
     int bandNum = 1000;
-    double dx = 2.0 / bandNum;
+    double start = 0.0;
+    double end = 2.0;
+    double dx = (end - start) / bandNum;
     double sum = 0.0;
-    for (double i = 0.0; i < 2.0; i += dx) {
+    for (double i = start; i < end; i += dx) {
         sum += (pow(i, 3.0) + pow((i + dx), 3.0)) * dx / 2.0;
     }
     printf("%lf", sum);
