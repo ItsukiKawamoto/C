@@ -1,5 +1,5 @@
-#include <math.h>
 #include <stdio.h>
+#include <math.h>
 
 int main() {
     const double start = 0.0;
