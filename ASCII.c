@@ -11,4 +11,6 @@ int main() {
             printf("    %3d%#7o     %#8x         ^%c\n", i, i, i, i + 0x40);
         }
     }
+
+    return 0;
 }
