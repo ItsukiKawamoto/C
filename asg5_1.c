@@ -10,9 +10,9 @@ int main() {
     int e[] = {5, -2, 2};
     int f[] = {4, 2, -1};
 
-    printf("%d\n", calcinpro(a, b));
-    printf("%d\n", calcinpro(c, d));
-    printf("%d\n", calcinpro(e, f));
+    printf("%d\n", calcinpro(a, b)); // (3, 1, 2)と(-2, 5, 7)の内積を出力
+    printf("%d\n", calcinpro(c, d)); // (3, -4, 8)と(2, 1, 3)の内積を出力
+    printf("%d\n", calcinpro(e, f)); // (5, -2, 2)と(4, 2, -1)の内積を出力
 
     return 0;
 }
