@@ -9,7 +9,7 @@ int main() {
         for (int i = 0; i < 21; i++) {
             float x = i - 10;
             if (x * x + y * y < 90) {
-                if (fabsf(x) < 5 && fabsf(y) < 5) {
+                if (fabsf(x) < 5 && fabsf(y) < 5) { // 条件|x| < 5 ∧ |y| < 5
                     image[j][i] = 'x';
                 } else {
                     image[j][i] = '#';
